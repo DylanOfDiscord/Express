@@ -1,9 +1,7 @@
-require('dotenv').config();
-
 module.exports = {
-    "token": process.env.TOKEN,
-    "prefix": process.env.PREFIX,
-    "owners": [process.env.OWNERID],
-    "host": process.env.HOST,
-    "hostpassw": process.env.HOSTPASSW
+    "token": "NzczNzU2MDI0NTAyMjIyODc5.X6N2cw.YKDhneKZIzfIF3bXKHjBmJJnBC4",
+    "prefix": "u!",
+    "owners": ["773630468598792203"],
+    "host": "your lavalink host (port must be 2333)",
+    "hostpassw": "your lavalink host password"
 }
